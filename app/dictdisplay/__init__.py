@@ -1,7 +1,7 @@
 import math
 from pyurbandict import UrbanDict
 from typing import Callable
-import colors
+import dictdisplay.colors as colors
 
 bold_blue = [colors.BLUE, colors.BOLD]
 bold_blue_underlined = bold_blue + [colors.UNDERLINED]
