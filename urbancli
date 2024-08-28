@@ -1,2 +1,4 @@
+# urbancli wrapper script
+
 poetry install -q
 poetry run python app/main.py
