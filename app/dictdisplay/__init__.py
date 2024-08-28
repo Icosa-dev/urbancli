@@ -7,7 +7,7 @@ bold_blue = [colors.BLUE, colors.BOLD]
 bold_blue_underlined = bold_blue + [colors.UNDERLINED]
 
 def print_word(word: str, entry_num: int): 
-    print(f"{colors.stylize(word + f" [{entry_num + 1}]", bold_blue_underlined)}")
+    print(f"{colors.stylize(word + f" [{entry_num}]", bold_blue_underlined)}")
 
 def print_definition(definition: str):
     print("\t" + definition + "\n")
@@ -31,11 +31,11 @@ def print_ratings(thumbs_up: int, thumbs_down: int):
     else:
         print(f"👍: {thumbs_up} 👎: {thumbs_down} ({colors.stylize('-' + to_percent(disapproval_rating), [colors.RED, color.BOLD])})")
 
-# entries are 0 indexed but are displayed 1 indexed
+# entries are 1 indexed
 def print_entry(word: str, entry: int):
     results = UrbanDict(word).search()
     if results is not None:
-        result = results[entry]
+        result = results[entry - 1]
 
         print_word(result.word, entry)
         print_definition(result.definition)
