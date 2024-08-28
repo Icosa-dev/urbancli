@@ -2,11 +2,7 @@
 
 pkgs.mkShell {
   buildInputs = with pkgs; [
-    python3
+    python312
+    poetry
   ];
-
-  shellHook = ''
-    python3 app/main.py
-    exit
-  '';
 }
