@@ -1,5 +1,9 @@
+from pyurbandict import UrbanDict
+
 def main():
-    print("Hello World!")
+    word = UrbanDict("python")
+    results = word.search()
+    print(results[0])
 
 if __name__ == "__main__":
     main()
