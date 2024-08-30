@@ -1,7 +1,10 @@
 import dictdisplay
+import parser
 
 def main():
-    dictdisplay.print_entry("python", 1);
+    args = parser.parse_args()
+
+    
 
 if __name__ == "__main__":
     main()
