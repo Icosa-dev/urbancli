@@ -29,7 +29,7 @@ def print_ratings(thumbs_up: int, thumbs_down: int):
     if (approval_rating > disapproval_rating):
         print(f"👍: {thumbs_up} 👎: {thumbs_down} ({colors.stylize(to_percent(approval_rating), [colors.GREEN, colors.BOLD])})")
     else:
-        print(f"👍: {thumbs_up} 👎: {thumbs_down} ({colors.stylize('-' + to_percent(disapproval_rating), [colors.RED, color.BOLD])})")
+        print(f"👍: {thumbs_up} 👎: {thumbs_down} ({colors.stylize('-' + to_percent(disapproval_rating), [colors.RED, colors.BOLD])})")
 
 # entries are 1 indexed
 def print_entry(word: str, entry: int):
