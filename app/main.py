@@ -12,7 +12,7 @@ total_entries = len(UrbanDict(word).search())
 
 if entry > total_entries:
     print(f"Urban: Error: entry {entry} does not exist for word \"{word}\"")
-    return
+    exit(1)
 
 if extra_entries > total_entries:
     extra_entries = total_entries - 1
