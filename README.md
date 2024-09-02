@@ -2,6 +2,19 @@
 
 `urbancli` is a command line interface tool that allows you to access the urban dictionary from the command line.
 
+## Install
+
+To install urbancli you need to clone the git repository and run the `install.sh` script. This will copy the needed files into `~/.local/bin`. You will need to add `~/.local/bin` to your PATH if it is not already there for it to work properly.
+
+```
+git clone https://gitlab.com/Icosaa/urbancli
+cd urbancli
+
+chmod +x install.sh
+./install.sh
+# you can run ./install.sh uninstall to remove urbancli 
+```
+
 ## Usage
 
 ```
