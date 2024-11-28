@@ -4,7 +4,10 @@
 
 ## Install
 
-To install urbancli you need to clone the git repository and run the `install.sh` script. This will copy the needed files into `~/.local/bin`. You will need to add `~/.local/bin` to your PATH if it is not already there for it to work properly. (NOTE: This only works for unix-like systems)
+To install urbancli you need to clone the git repository and run the `install.sh` 
+script. This will copy the needed files into `~/.local/bin`. You will need 
+to add `~/.local/bin` to your PATH if it is not already there for it to work 
+properly. (NOTE: This only works for unix-like systems)
 
 ```
 git clone https://gitlab.com/Icosaa/urbancli

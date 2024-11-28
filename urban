@@ -1,5 +1,2 @@
 # urbancli wrapper script
-
-poetry install -q
-poetry env use python3.12 > /dev/null
-poetry run python /home/$(whoami)/.local/bin/urbancli/app/main.py "$@" 
+python app/main.py
