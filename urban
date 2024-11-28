@@ -1,2 +1,2 @@
 # urbancli wrapper script
-python app/main.py
+python app/main.py "$@"
