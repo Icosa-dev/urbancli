@@ -10,7 +10,7 @@ to add `~/.local/bin` to your PATH if it is not already there for it to work
 properly. (NOTE: This only works for unix-like systems)
 
 ```
-git clone https://gitlab.com/Icosaa/urbancli
+git clone https://codeberg.org/Icosa-dev/urbancli
 cd urbancli
 
 chmod +x install.sh
